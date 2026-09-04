@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 70" fill="none" class="w-auto h-full">
+  <defs>
+    <linearGradient id="tejx-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B5CFF" />
+      <stop offset="50%" stop-color="#08CBBD" />
+      <stop offset="100%" stop-color="#6CF4E5" />
+    </linearGradient>
+    <linearGradient id="badge-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07142B" />
+      <stop offset="100%" stop-color="#10233F" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  
+  <!-- Icon Emblem -->
+  <g transform="translate(6, 5)">
+    <rect width="60" height="60" rx="16" fill="url(#badge-grad)" stroke="url(#tejx-grad)" stroke-width="2" />
+    <!-- Stylized T and X Geometric Paths -->
+    <path d="M16 20 H44 M30 20 V42" stroke="url(#tejx-grad)" stroke-width="4.5" stroke-linecap="round" />
+    <path d="M34 26 L45 42 M45 26 L34 42" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity="0.95" />
+    <circle cx="45" cy="20" r="3" fill="#08CBBD" filter="url(#glow)" />
+  </g>
+  
+  <!-- Text Brand -->
+  <g transform="translate(80, 20)">
+    <text x="0" y="24" font-family="'Fraunces', 'DM Sans', sans-serif" font-size="30" font-weight="900" letter-spacing="1" fill="#10233F">
+      TEJ<tspan fill="url(#tejx-grad)">X</tspan>
+    </text>
+    <text x="2" y="40" font-family="'DM Sans', sans-serif" font-size="9" font-weight="700" letter-spacing="3.5" fill="#5B6879">
+      DIGITAL SOLUTIONS
+    </text>
+  </g>
+</svg>
