@@ -1,0 +1,818 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore actionable digital marketing, SEO, branding, Google Ads, social media and AI guides from TEJX Digital Solutions in Madurai. Practical business growth insights.">
+  <meta name="keywords" content="Digital Marketing Blog Madurai, Local SEO Tips Madurai, Google Ads vs Meta Ads, Website Development Guide, Social Media Marketing Tips, TEJX Digital Solutions">
+  <title>Blog & Digital Growth Guides | TEJX Digital Solutions Madurai</title>
+  
+  <!-- Tailwind CSS & Lucide Icons -->
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.577.0/dist/umd/lucide.min.js"></script>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,400&family=Fraunces:opsz,wght@9..144,600;9..144,700;9..144,800;9..144,900&display=swap" rel="stylesheet">
+  <!-- External Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+ </head>
+ <body class="w-full text-slate-900 selection:bg-[#08cbbd] selection:text-white">
+  
+  <!-- Navigation Header with User's Transparent Logo -->
+  <header class="nav-glass sticky top-0 z-50 w-full border-b border-slate-200/80 transition-all duration-300">
+   <nav aria-label="Main navigation" class="mx-auto flex max-w-7xl items-center justify-between px-5 py-3 lg:px-8">
+    <a href="index.html#home" class="focus-ring flex items-center gap-3 rounded-xl group transition">
+      <img src="assets/images/logo.png" alt="TEJX Digital Solutions" class="h-12 w-auto sm:h-14 object-contain transition-transform group-hover:scale-105">
+      <span class="hidden border-l border-slate-300 pl-3.5 sm:block">
+        <span class="block text-[11px] font-extrabold uppercase tracking-[0.22em] text-[#0b5cff]">MADURAI</span>
+        <span class="block text-[10px] font-semibold text-slate-500 uppercase tracking-wider">Digital Solutions</span>
+      </span>
+    </a>
+    
+    <div class="hidden items-center gap-7 md:flex">
+      <a class="focus-ring rounded-lg text-sm font-semibold text-slate-700 hover:text-[#0b5cff] transition-colors" href="index.html#about">About</a>
+      <a class="focus-ring rounded-lg text-sm font-semibold text-slate-700 hover:text-[#0b5cff] transition-colors" href="index.html#services">Services</a>
+      <a class="focus-ring rounded-lg text-sm font-semibold text-slate-700 hover:text-[#0b5cff] transition-colors" href="index.html#who-we-help">Who We Help</a>
+      <a class="focus-ring rounded-lg text-sm font-semibold text-slate-700 hover:text-[#0b5cff] transition-colors" href="index.html#approach">Our Approach</a>
+      <a class="focus-ring rounded-lg text-sm font-bold text-[#0b5cff] transition-colors" href="blog.html">Blog</a>
+      <a class="focus-ring rounded-lg text-sm font-semibold text-slate-700 hover:text-[#0b5cff] transition-colors" href="index.html#contact">Contact</a>
+      <a class="focus-ring rounded-full bg-gradient-to-r from-[#0b5cff] to-[#08cbbd] px-5 py-2.5 text-sm font-bold text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/30 hover:-translate-y-0.5" href="index.html#contact">
+        Get Started
+      </a>
+    </div>
+
+    <button id="menu-button" type="button" aria-expanded="false" aria-controls="mobile-menu" class="focus-ring rounded-lg p-2 text-slate-700 md:hidden hover:bg-slate-100 transition">
+      <i data-lucide="menu" class="h-6 w-6" aria-hidden="true"></i>
+      <span class="sr-only">Open menu</span>
+    </button>
+   </nav>
+
+   <!-- Mobile Menu Drawer -->
+   <div id="mobile-menu" class="hidden border-t border-slate-200 bg-white px-6 py-5 shadow-xl md:hidden">
+    <div class="flex flex-col gap-3 font-semibold text-slate-800">
+      <a class="focus-ring rounded-lg px-3 py-2 hover:bg-slate-50 hover:text-[#0b5cff]" href="index.html#about">About</a>
+      <a class="focus-ring rounded-lg px-3 py-2 hover:bg-slate-50 hover:text-[#0b5cff]" href="index.html#services">Services</a>
+      <a class="focus-ring rounded-lg px-3 py-2 hover:bg-slate-50 hover:text-[#0b5cff]" href="index.html#who-we-help">Who We Help</a>
+      <a class="focus-ring rounded-lg px-3 py-2 hover:bg-slate-50 hover:text-[#0b5cff]" href="index.html#approach">Our Approach</a>
+      <a class="focus-ring rounded-lg px-3 py-2 text-[#0b5cff] bg-blue-50/70" href="blog.html">Blog</a>
+      <a class="focus-ring rounded-lg px-3 py-2 hover:bg-slate-50 hover:text-[#0b5cff]" href="index.html#contact">Contact</a>
+      <a class="focus-ring mt-2 rounded-xl bg-gradient-to-r from-[#0b5cff] to-[#08cbbd] px-4 py-3 text-center font-bold text-white shadow" href="index.html#contact">
+        Get Started
+      </a>
+    </div>
+   </div>
+  </header>
+
+  <main>
+   <!-- Hero Banner -->
+   <section class="hero-scene relative py-20 text-white overflow-hidden">
+    <div class="relative mx-auto max-w-7xl px-5 lg:px-8 text-center">
+      <div class="inline-flex items-center gap-2 rounded-full border border-teal-300/30 bg-teal-500/10 px-4 py-1.5 backdrop-blur-md mb-6">
+        <span class="h-2 w-2 rounded-full bg-[#08cbbd] animate-ping"></span>
+        <p class="text-xs font-bold uppercase tracking-wider text-teal-200">Knowledge Hub & Industry Insights</p>
+      </div>
+
+      <h1 class="display-font text-3xl sm:text-4xl lg:text-5xl font-black text-white leading-tight max-w-3xl mx-auto">
+        Digital Growth Guides & <span class="bg-gradient-to-r from-[#6cf4e5] to-[#3b82f6] bg-clip-text text-transparent">Actionable Strategies</span>
+      </h1>
+
+      <p class="mt-5 text-base sm:text-lg text-slate-200/90 max-w-2xl mx-auto leading-relaxed">
+        Practical articles, digital marketing roadmaps, local SEO tips, and growth frameworks for businesses in Madurai and across Tamil Nadu.
+      </p>
+
+      <!-- Category Filter Pills -->
+      <div class="mt-10 flex flex-wrap items-center justify-center gap-2 text-xs sm:text-sm font-semibold">
+        <button class="filter-btn active rounded-full bg-[#08cbbd] text-slate-950 px-4 py-2 transition" data-filter="all">All Topics (12)</button>
+        <button class="filter-btn rounded-full bg-white/10 hover:bg-white/20 text-white px-4 py-2 transition" data-filter="marketing">Digital Marketing</button>
+        <button class="filter-btn rounded-full bg-white/10 hover:bg-white/20 text-white px-4 py-2 transition" data-filter="social">Social Media</button>
+        <button class="filter-btn rounded-full bg-white/10 hover:bg-white/20 text-white px-4 py-2 transition" data-filter="seo">SEO & Local</button>
+        <button class="filter-btn rounded-full bg-white/10 hover:bg-white/20 text-white px-4 py-2 transition" data-filter="ads">Paid Ads</button>
+        <button class="filter-btn rounded-full bg-white/10 hover:bg-white/20 text-white px-4 py-2 transition" data-filter="branding">Branding & Web</button>
+        <button class="filter-btn rounded-full bg-white/10 hover:bg-white/20 text-white px-4 py-2 transition" data-filter="tech">AI & Video</button>
+      </div>
+    </div>
+   </section>
+
+   <!-- Articles Grid Section (All 12 Topics from PDF) -->
+   <section class="w-full bg-[#f8fafc] py-16 lg:py-24">
+    <div class="mx-auto max-w-7xl px-5 lg:px-8">
+     
+     <div id="articles-grid" class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+      
+      <!-- Article 1 -->
+      <article class="blog-card rounded-3xl bg-white border border-slate-200/80 p-7 flex flex-col justify-between shadow-sm" data-category="marketing">
+       <div>
+        <div class="flex items-center justify-between text-xs text-slate-500 mb-4">
+          <span class="rounded-full bg-blue-50 text-[#0b5cff] font-bold px-3 py-1">Digital Marketing</span>
+          <span>5 min read</span>
+        </div>
+        <h2 class="text-xl font-bold text-slate-900 leading-snug hover:text-[#0b5cff] transition cursor-pointer article-title" data-article="0">
+          Digital Marketing for Small Businesses: A Practical Guide
+        </h2>
+        <p class="mt-3 text-sm text-slate-600 leading-relaxed">
+          How small business owners can build a predictable online customer pipeline without getting overwhelmed by jargon. A step-by-step framework on foundational channels, setting budgets, and calculating real ROI.
+        </p>
+        <div class="mt-4 pt-4 border-t border-slate-100 flex items-center gap-2 text-xs font-semibold text-slate-500">
+          <i data-lucide="check" class="h-3.5 w-3.5 text-[#08cbbd]"></i> Focus on 1-2 core channels first
+        </div>
+       </div>
+       <div class="mt-6 pt-3">
+        <button class="read-btn inline-flex items-center gap-1.5 text-sm font-bold text-[#0b5cff] hover:text-blue-700 transition" data-article="0">
+          <span>Read Full Guide</span>
+          <i data-lucide="arrow-right" class="h-4 w-4"></i>
+        </button>
+       </div>
+      </article>
+
+      <!-- Article 2 -->
+      <article class="blog-card rounded-3xl bg-white border border-slate-200/80 p-7 flex flex-col justify-between shadow-sm" data-category="social">
+       <div>
+        <div class="flex items-center justify-between text-xs text-slate-500 mb-4">
+          <span class="rounded-full bg-purple-50 text-purple-600 font-bold px-3 py-1">Social Media</span>
+          <span>4 min read</span>
+        </div>
+        <h2 class="text-xl font-bold text-slate-900 leading-snug hover:text-[#0b5cff] transition cursor-pointer article-title" data-article="1">
+          How Social Media Marketing Can Help Local Businesses
+        </h2>
+        <p class="mt-3 text-sm text-slate-600 leading-relaxed">
+          Why local presence beats global vanity metrics. Discover how reels, local community stories, and customer showcase videos turn casual Instagram scrollers into paying in-store visitors in Madurai.
+        </p>
+        <div class="mt-4 pt-4 border-t border-slate-100 flex items-center gap-2 text-xs font-semibold text-slate-500">
+          <i data-lucide="check" class="h-3.5 w-3.5 text-[#08cbbd]"></i> Local geotags & active response loops
+        </div>
+       </div>
+       <div class="mt-6 pt-3">
+        <button class="read-btn inline-flex items-center gap-1.5 text-sm font-bold text-[#0b5cff] hover:text-blue-700 transition" data-article="1">
+          <span>Read Full Guide</span>
+          <i data-lucide="arrow-right" class="h-4 w-4"></i>
+        </button>
+       </div>
+      </article>
+
+      <!-- Article 3 -->
+      <article class="blog-card rounded-3xl bg-white border border-slate-200/80 p-7 flex flex-col justify-between shadow-sm" data-category="ads">
+       <div>
+        <div class="flex items-center justify-between text-xs text-slate-500 mb-4">
+          <span class="rounded-full bg-emerald-50 text-emerald-600 font-bold px-3 py-1">Paid Ads</span>
+          <span>6 min read</span>
+        </div>
+        <h2 class="text-xl font-bold text-slate-900 leading-snug hover:text-[#0b5cff] transition cursor-pointer article-title" data-article="2">
+          Google Ads vs Meta Ads: Which Is Right for Your Business?
+        </h2>
+        <p class="mt-3 text-sm text-slate-600 leading-relaxed">
+          Comparing intent-driven search ads against visual interest-based social discovery. Learn when to deploy Google Search and when to invest in Facebook & Instagram Ads to maximize ROAS.
+        </p>
+        <div class="mt-4 pt-4 border-t border-slate-100 flex items-center gap-2 text-xs font-semibold text-slate-500">
+          <i data-lucide="check" class="h-3.5 w-3.5 text-[#08cbbd]"></i> Intent search vs visual brand discovery
+        </div>
+       </div>
+       <div class="mt-6 pt-3">
+        <button class="read-btn inline-flex items-center gap-1.5 text-sm font-bold text-[#0b5cff] hover:text-blue-700 transition" data-article="2">
+          <span>Read Full Guide</span>
+          <i data-lucide="arrow-right" class="h-4 w-4"></i>
+        </button>
+       </div>
+      </article>
+
+      <!-- Article 4 -->
+      <article class="blog-card rounded-3xl bg-white border border-slate-200/80 p-7 flex flex-col justify-between shadow-sm" data-category="seo">
+       <div>
+        <div class="flex items-center justify-between text-xs text-slate-500 mb-4">
+          <span class="rounded-full bg-teal-50 text-teal-700 font-bold px-3 py-1">SEO & Ranking</span>
+          <span>5 min read</span>
+        </div>
+        <h2 class="text-xl font-bold text-slate-900 leading-snug hover:text-[#0b5cff] transition cursor-pointer article-title" data-article="3">
+          What Is SEO and Why Does Your Business Need It?
+        </h2>
+        <p class="mt-3 text-sm text-slate-600 leading-relaxed">
+          Paid ads stop the minute your budget runs out, but organic Search Engine Optimization continues delivering qualified leads 24/7. Understand how on-page optimization, content, and backlinks build equity.
+        </p>
+        <div class="mt-4 pt-4 border-t border-slate-100 flex items-center gap-2 text-xs font-semibold text-slate-500">
+          <i data-lucide="check" class="h-3.5 w-3.5 text-[#08cbbd]"></i> Compounding 24/7 free organic search traffic
+        </div>
+       </div>
+       <div class="mt-6 pt-3">
+        <button class="read-btn inline-flex items-center gap-1.5 text-sm font-bold text-[#0b5cff] hover:text-blue-700 transition" data-article="3">
+          <span>Read Full Guide</span>
+          <i data-lucide="arrow-right" class="h-4 w-4"></i>
+        </button>
+       </div>
+      </article>
+
+      <!-- Article 5 -->
+      <article class="blog-card rounded-3xl bg-white border border-slate-200/80 p-7 flex flex-col justify-between shadow-sm" data-category="seo">
+       <div>
+        <div class="flex items-center justify-between text-xs text-slate-500 mb-4">
+          <span class="rounded-full bg-orange-50 text-orange-600 font-bold px-3 py-1">Google Maps</span>
+          <span>4 min read</span>
+        </div>
+        <h2 class="text-xl font-bold text-slate-900 leading-snug hover:text-[#0b5cff] transition cursor-pointer article-title" data-article="4">
+          How to Optimize Your Google Business Profile
+        </h2>
+        <p class="mt-3 text-sm text-slate-600 leading-relaxed">
+          The exact blueprint to dominate the Google Maps "Local 3-Pack" in Madurai. Category optimization, phone/address verification, weekly photo publishing, and review collection tactics.
+        </p>
+        <div class="mt-4 pt-4 border-t border-slate-100 flex items-center gap-2 text-xs font-semibold text-slate-500">
+          <i data-lucide="check" class="h-3.5 w-3.5 text-[#08cbbd]"></i> Dominate Google Maps local search
+        </div>
+       </div>
+       <div class="mt-6 pt-3">
+        <button class="read-btn inline-flex items-center gap-1.5 text-sm font-bold text-[#0b5cff] hover:text-blue-700 transition" data-article="4">
+          <span>Read Full Guide</span>
+          <i data-lucide="arrow-right" class="h-4 w-4"></i>
+        </button>
+       </div>
+      </article>
+
+      <!-- Article 6 -->
+      <article class="blog-card rounded-3xl bg-white border border-slate-200/80 p-7 flex flex-col justify-between shadow-sm" data-category="branding">
+       <div>
+        <div class="flex items-center justify-between text-xs text-slate-500 mb-4">
+          <span class="rounded-full bg-blue-50 text-[#0b5cff] font-bold px-3 py-1">Website Design</span>
+          <span>4 min read</span>
+        </div>
+        <h2 class="text-xl font-bold text-slate-900 leading-snug hover:text-[#0b5cff] transition cursor-pointer article-title" data-article="5">
+          Why Every Business Needs a Professional Website
+        </h2>
+        <p class="mt-3 text-sm text-slate-600 leading-relaxed">
+          Relying solely on third-party social platforms means renting digital land. Discover why a responsive, high-speed business website is your highest-leverage digital asset and primary trust anchor.
+        </p>
+        <div class="mt-4 pt-4 border-t border-slate-100 flex items-center gap-2 text-xs font-semibold text-slate-500">
+          <i data-lucide="check" class="h-3.5 w-3.5 text-[#08cbbd]"></i> Full ownership & conversion tracking
+        </div>
+       </div>
+       <div class="mt-6 pt-3">
+        <button class="read-btn inline-flex items-center gap-1.5 text-sm font-bold text-[#0b5cff] hover:text-blue-700 transition" data-article="5">
+          <span>Read Full Guide</span>
+          <i data-lucide="arrow-right" class="h-4 w-4"></i>
+        </button>
+       </div>
+      </article>
+
+      <!-- Article 7 -->
+      <article class="blog-card rounded-3xl bg-white border border-slate-200/80 p-7 flex flex-col justify-between shadow-sm" data-category="branding">
+       <div>
+        <div class="flex items-center justify-between text-xs text-slate-500 mb-4">
+          <span class="rounded-full bg-amber-50 text-amber-700 font-bold px-3 py-1">Brand Strategy</span>
+          <span>5 min read</span>
+        </div>
+        <h2 class="text-xl font-bold text-slate-900 leading-snug hover:text-[#0b5cff] transition cursor-pointer article-title" data-article="6">
+          How Branding Helps Small Businesses Build Trust
+        </h2>
+        <p class="mt-3 text-sm text-slate-600 leading-relaxed">
+          Move from competing purely on discount pricing to commanding authority. How cohesive color palettes, typography, professional logos, and brand tone differentiate your business from competitors.
+        </p>
+        <div class="mt-4 pt-4 border-t border-slate-100 flex items-center gap-2 text-xs font-semibold text-slate-500">
+          <i data-lucide="check" class="h-3.5 w-3.5 text-[#08cbbd]"></i> Justify premium pricing with strong identity
+        </div>
+       </div>
+       <div class="mt-6 pt-3">
+        <button class="read-btn inline-flex items-center gap-1.5 text-sm font-bold text-[#0b5cff] hover:text-blue-700 transition" data-article="6">
+          <span>Read Full Guide</span>
+          <i data-lucide="arrow-right" class="h-4 w-4"></i>
+        </button>
+       </div>
+      </article>
+
+      <!-- Article 8 -->
+      <article class="blog-card rounded-3xl bg-white border border-slate-200/80 p-7 flex flex-col justify-between shadow-sm" data-category="social">
+       <div>
+        <div class="flex items-center justify-between text-xs text-slate-500 mb-4">
+          <span class="rounded-full bg-purple-50 text-purple-600 font-bold px-3 py-1">Content Creation</span>
+          <span>4 min read</span>
+        </div>
+        <h2 class="text-xl font-bold text-slate-900 leading-snug hover:text-[#0b5cff] transition cursor-pointer article-title" data-article="7">
+          Content Ideas for Local Businesses
+        </h2>
+        <p class="mt-3 text-sm text-slate-600 leading-relaxed">
+          Stop struggling with "what to post today". Ten repeatable content pillars for retail, medical, educational, and service businesses that consistently generate engagement and enquiries.
+        </p>
+        <div class="mt-4 pt-4 border-t border-slate-100 flex items-center gap-2 text-xs font-semibold text-slate-500">
+          <i data-lucide="check" class="h-3.5 w-3.5 text-[#08cbbd]"></i> 10 practical content pillars that convert
+        </div>
+       </div>
+       <div class="mt-6 pt-3">
+        <button class="read-btn inline-flex items-center gap-1.5 text-sm font-bold text-[#0b5cff] hover:text-blue-700 transition" data-article="7">
+          <span>Read Full Guide</span>
+          <i data-lucide="arrow-right" class="h-4 w-4"></i>
+        </button>
+       </div>
+      </article>
+
+      <!-- Article 9 -->
+      <article class="blog-card rounded-3xl bg-white border border-slate-200/80 p-7 flex flex-col justify-between shadow-sm" data-category="tech">
+       <div>
+        <div class="flex items-center justify-between text-xs text-slate-500 mb-4">
+          <span class="rounded-full bg-rose-50 text-rose-600 font-bold px-3 py-1">Video Marketing</span>
+          <span>5 min read</span>
+        </div>
+        <h2 class="text-xl font-bold text-slate-900 leading-snug hover:text-[#0b5cff] transition cursor-pointer article-title" data-article="8">
+          How Business Videos Can Improve Online Presence
+        </h2>
+        <p class="mt-3 text-sm text-slate-600 leading-relaxed">
+          Short-form video and high-production company profiles dominate modern algorithms. Discover how simple 30-second reels and customer video testimonials outperform static image posts.
+        </p>
+        <div class="mt-4 pt-4 border-t border-slate-100 flex items-center gap-2 text-xs font-semibold text-slate-500">
+          <i data-lucide="check" class="h-3.5 w-3.5 text-[#08cbbd]"></i> Capture customer attention in 3 seconds
+        </div>
+       </div>
+       <div class="mt-6 pt-3">
+        <button class="read-btn inline-flex items-center gap-1.5 text-sm font-bold text-[#0b5cff] hover:text-blue-700 transition" data-article="8">
+          <span>Read Full Guide</span>
+          <i data-lucide="arrow-right" class="h-4 w-4"></i>
+        </button>
+       </div>
+      </article>
+
+      <!-- Article 10 -->
+      <article class="blog-card rounded-3xl bg-white border border-slate-200/80 p-7 flex flex-col justify-between shadow-sm" data-category="marketing">
+       <div>
+        <div class="flex items-center justify-between text-xs text-slate-500 mb-4">
+          <span class="rounded-full bg-blue-50 text-[#0b5cff] font-bold px-3 py-1">Lead Generation</span>
+          <span>6 min read</span>
+        </div>
+        <h2 class="text-xl font-bold text-slate-900 leading-snug hover:text-[#0b5cff] transition cursor-pointer article-title" data-article="9">
+          Lead Generation Strategies for Small Businesses
+        </h2>
+        <p class="mt-3 text-sm text-slate-600 leading-relaxed">
+          Practical strategies to convert online attention into high-intent inbound phone calls and WhatsApp enquiries. Funnel design, lead magnets, frictionless forms, and prompt follow-up workflows.
+        </p>
+        <div class="mt-4 pt-4 border-t border-slate-100 flex items-center gap-2 text-xs font-semibold text-slate-500">
+          <i data-lucide="check" class="h-3.5 w-3.5 text-[#08cbbd]"></i> WhatsApp lead funnels with instant replies
+        </div>
+       </div>
+       <div class="mt-6 pt-3">
+        <button class="read-btn inline-flex items-center gap-1.5 text-sm font-bold text-[#0b5cff] hover:text-blue-700 transition" data-article="9">
+          <span>Read Full Guide</span>
+          <i data-lucide="arrow-right" class="h-4 w-4"></i>
+        </button>
+       </div>
+      </article>
+
+      <!-- Article 11 -->
+      <article class="blog-card rounded-3xl bg-white border border-slate-200/80 p-7 flex flex-col justify-between shadow-sm" data-category="seo">
+       <div>
+        <div class="flex items-center justify-between text-xs text-slate-500 mb-4">
+          <span class="rounded-full bg-teal-50 text-teal-700 font-bold px-3 py-1">Madurai Local SEO</span>
+          <span>5 min read</span>
+        </div>
+        <h2 class="text-xl font-bold text-slate-900 leading-snug hover:text-[#0b5cff] transition cursor-pointer article-title" data-article="10">
+          Local SEO Tips for Businesses in Madurai
+        </h2>
+        <p class="mt-3 text-sm text-slate-600 leading-relaxed">
+          Hyper-targeted local search strategies specifically for Madurai companies. Optimizing for Tamil and English local search queries, neighbourhood keywords, and regional citation building.
+        </p>
+        <div class="mt-4 pt-4 border-t border-slate-100 flex items-center gap-2 text-xs font-semibold text-slate-500">
+          <i data-lucide="check" class="h-3.5 w-3.5 text-[#08cbbd]"></i> Neighborhood keyword strategy for Madurai
+        </div>
+       </div>
+       <div class="mt-6 pt-3">
+        <button class="read-btn inline-flex items-center gap-1.5 text-sm font-bold text-[#0b5cff] hover:text-blue-700 transition" data-article="10">
+          <span>Read Full Guide</span>
+          <i data-lucide="arrow-right" class="h-4 w-4"></i>
+        </button>
+       </div>
+      </article>
+
+      <!-- Article 12 -->
+      <article class="blog-card rounded-3xl bg-white border border-slate-200/80 p-7 flex flex-col justify-between shadow-sm" data-category="tech">
+       <div>
+        <div class="flex items-center justify-between text-xs text-slate-500 mb-4">
+          <span class="rounded-full bg-cyan-50 text-cyan-700 font-bold px-3 py-1">AI Solutions</span>
+          <span>5 min read</span>
+        </div>
+        <h2 class="text-xl font-bold text-slate-900 leading-snug hover:text-[#0b5cff] transition cursor-pointer article-title" data-article="11">
+          How to Use AI Tools for Business Content Creation
+        </h2>
+        <p class="mt-3 text-sm text-slate-600 leading-relaxed">
+          How smart business owners use AI tools for brainstorming, ad copy variations, and workflow automation while retaining authentic human warmth and brand identity.
+        </p>
+        <div class="mt-4 pt-4 border-t border-slate-100 flex items-center gap-2 text-xs font-semibold text-slate-500">
+          <i data-lucide="check" class="h-3.5 w-3.5 text-[#08cbbd]"></i> Accelerated ideation with authentic human review
+        </div>
+       </div>
+       <div class="mt-6 pt-3">
+        <button class="read-btn inline-flex items-center gap-1.5 text-sm font-bold text-[#0b5cff] hover:text-blue-700 transition" data-article="11">
+          <span>Read Full Guide</span>
+          <i data-lucide="arrow-right" class="h-4 w-4"></i>
+        </button>
+       </div>
+      </article>
+
+     </div>
+
+     <!-- CTA Section -->
+     <div class="mt-16 rounded-3xl bg-gradient-to-br from-[#07172d] to-[#0b5cff] p-8 lg:p-12 text-white shadow-xl text-center max-w-4xl mx-auto">
+      <h3 class="display-font text-2xl sm:text-3xl font-bold">Have Questions About Growing Your Business?</h3>
+      <p class="mt-3 text-sm sm:text-base text-blue-100 max-w-xl mx-auto">
+        Speak directly with our digital strategists in Madurai. We will examine your current market presence and recommend a practical, high-ROI growth plan.
+      </p>
+      <div class="mt-8 flex flex-wrap justify-center gap-4">
+        <a href="https://wa.me/916374559080?text=Hello%20TEJX%2C%20i'm%20intersted%20your%20service" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-full bg-[#25D366] px-6 py-3.5 text-sm font-bold text-white shadow-lg hover:bg-[#20ba59] transition">
+          <img src="assets/images/wp.png" alt="WhatsApp" class="h-5 w-5 object-contain">
+          <span>Chat With Us on WhatsApp</span>
+        </a>
+        <a href="index.html#contact" class="inline-flex items-center gap-2 rounded-full bg-white px-6 py-3.5 text-sm font-bold text-slate-900 shadow hover:bg-slate-100 transition">
+          <span>Send Website Enquiry</span>
+          <i data-lucide="arrow-right" class="h-4 w-4"></i>
+        </a>
+      </div>
+     </div>
+
+    </div>
+   </section>
+  </main>
+
+  <!-- Article Modal / Reader Drawer -->
+  <div id="article-modal" class="fixed inset-0 z-50 hidden bg-slate-950/70 backdrop-blur-sm flex items-center justify-center p-4">
+    <div class="relative w-full max-w-3xl max-h-[90vh] bg-white rounded-3xl p-6 sm:p-10 shadow-2xl overflow-y-auto border border-slate-200">
+      <button id="close-modal-btn" class="absolute top-5 right-5 p-2 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-700 transition">
+        <i data-lucide="x" class="h-5 w-5"></i>
+      </button>
+      
+      <div id="modal-tag" class="inline-block rounded-full bg-blue-50 text-[#0b5cff] text-xs font-bold px-3 py-1 mb-3"></div>
+      <h2 id="modal-title" class="display-font text-2xl sm:text-3xl font-extrabold text-slate-900 leading-tight"></h2>
+      <p id="modal-read" class="text-xs text-slate-500 mt-2 mb-6"></p>
+      
+      <div id="modal-content" class="prose max-w-none text-slate-700 leading-relaxed space-y-4 text-sm sm:text-base border-t border-slate-100 pt-6"></div>
+
+      <div class="mt-8 pt-6 border-t border-slate-200 flex flex-wrap items-center justify-between gap-4">
+        <a id="modal-wa-btn" href="https://wa.me/916374559080?text=Hello%20TEJX%2C%20i'm%20intersted%20your%20service" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-xl bg-[#25D366] px-5 py-3 text-sm font-bold text-white shadow hover:bg-[#20ba59] transition">
+          <img src="assets/images/wp.png" alt="WhatsApp" class="h-4 w-4 object-contain">
+          <span>Discuss This Topic on WhatsApp</span>
+        </a>
+        <button id="modal-close-bottom" class="rounded-xl border border-slate-300 px-5 py-3 text-sm font-semibold text-slate-700 hover:bg-slate-50 transition">
+          Close Article
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating Glowing Socials (WhatsApp & Instagram) -->
+  <aside class="floating-socials" aria-label="Social media quick links">
+    <div class="social-float-wrapper">
+      <span class="social-tooltip">Chat with TEJX on WhatsApp</span>
+      <a class="social-float whatsapp focus-ring" 
+         href="https://wa.me/916374559080?text=Hello%20TEJX%2C%20i'm%20intersted%20your%20service" 
+         target="_blank" 
+         rel="noopener noreferrer" 
+         aria-label="Chat with TEJX on WhatsApp">
+        <img src="assets/images/wp.png" alt="WhatsApp Icon" class="social-icon-img" loading="lazy">
+      </a>
+    </div>
+
+    <div class="social-float-wrapper">
+      <span class="social-tooltip">Follow @tejx_digital_solutions</span>
+      <a class="social-float instagram focus-ring" 
+         href="https://www.instagram.com/tejx_digital_solutions/" 
+         target="_blank" 
+         rel="noopener noreferrer" 
+         aria-label="Follow TEJX Digital Solutions on Instagram">
+        <img src="assets/images/ins.png" alt="Instagram Icon" class="social-icon-img" loading="lazy">
+      </a>
+    </div>
+  </aside>
+
+  <!-- Footer -->
+  <footer class="w-full bg-[#071326] text-white py-12 border-t border-slate-800">
+   <div class="mx-auto max-w-7xl px-5 lg:px-8">
+    <div class="grid gap-10 sm:grid-cols-2 lg:grid-cols-4 pb-10 border-b border-slate-800">
+      
+      <!-- Brand column with Transparent Logo on White Container -->
+      <div class="space-y-4">
+        <div class="p-3 bg-white rounded-2xl inline-block shadow-md">
+          <img src="assets/images/logo.png" alt="TEJX Digital Solutions" class="h-12 w-auto object-contain">
+        </div>
+        <p class="text-xs sm:text-sm text-slate-400 leading-relaxed">
+          TEJX Digital Solutions helps businesses build a strong online presence, reach the right audience and generate more business opportunities.
+        </p>
+        <p class="text-xs text-slate-400">&bull; Ideas &bull; Strategy &bull; Growth</p>
+        <p class="text-xs text-slate-400">&bull; Madurai, Tamil Nadu</p>
+      </div>
+
+      <!-- Quick Links -->
+      <div>
+        <h4 class="text-xs font-bold uppercase tracking-wider text-[#08cbbd]">Navigation</h4>
+        <ul class="mt-4 space-y-2 text-sm text-slate-300">
+          <li><a href="index.html#home" class="hover:text-white transition">Home</a></li>
+          <li><a href="index.html#about" class="hover:text-white transition">About TEJX</a></li>
+          <li><a href="index.html#services" class="hover:text-white transition">All Services</a></li>
+          <li><a href="index.html#who-we-help" class="hover:text-white transition">Who We Help</a></li>
+          <li><a href="blog.html" class="text-[#08cbbd] font-semibold">Blog & Guides</a></li>
+          <li><a href="index.html#contact" class="hover:text-white transition">Contact & Enquiries</a></li>
+        </ul>
+      </div>
+
+      <!-- Core Services -->
+      <div>
+        <h4 class="text-xs font-bold uppercase tracking-wider text-[#08cbbd]">Key Services</h4>
+        <ul class="mt-4 space-y-2 text-sm text-slate-300">
+          <li><a href="index.html#services" class="hover:text-white transition">Website Development</a></li>
+          <li><a href="index.html#services" class="hover:text-white transition">Branding & Creative Design</a></li>
+          <li><a href="index.html#services" class="hover:text-white transition">Social Media Management</a></li>
+          <li><a href="index.html#services" class="hover:text-white transition">Google & Meta Paid Ads</a></li>
+          <li><a href="index.html#services" class="hover:text-white transition">SEO Services in Madurai</a></li>
+          <li><a href="index.html#services" class="hover:text-white transition">AI & Digital Solutions</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Details from PDF -->
+      <div>
+        <h4 class="text-xs font-bold uppercase tracking-wider text-[#08cbbd]">Get in Touch</h4>
+        <div class="mt-4 space-y-2.5 text-sm text-slate-300">
+          <p class="flex items-center gap-2">
+            <i data-lucide="phone" class="h-4 w-4 text-[#08cbbd]"></i>
+            <a href="tel:+916374559080" class="hover:text-white transition">+91 63745 59080</a>
+          </p>
+          <p class="flex items-center gap-2">
+            <i data-lucide="phone" class="h-4 w-4 text-[#08cbbd]"></i>
+            <a href="tel:+919574664084" class="hover:text-white transition">+91 95746 64084</a>
+          </p>
+          <p class="flex items-center gap-2">
+            <i data-lucide="mail" class="h-4 w-4 text-[#08cbbd]"></i>
+            <a href="mailto:tejxdigitalsolutions@gmail.com" class="hover:text-white transition break-all">tejxdigitalsolutions@gmail.com</a>
+          </p>
+          <p class="flex items-center gap-2">
+            <i data-lucide="instagram" class="h-4 w-4 text-[#08cbbd]"></i>
+            <a href="https://www.instagram.com/tejx_digital_solutions/" target="_blank" rel="noopener noreferrer" class="hover:text-white transition">@tejx_digital_solutions</a>
+          </p>
+          <p class="text-xs text-slate-500 pt-2">&bull; Madurai, Tamil Nadu</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-8 flex flex-col gap-4 text-xs text-slate-400 sm:flex-row sm:items-center sm:justify-between">
+     <p>&copy; 2026 TEJX Digital Solutions. All rights reserved.</p>
+     <div class="flex items-center gap-6">
+       <a href="#home" class="hover:text-white transition flex items-center gap-1 font-semibold text-slate-300">
+         <span>Back to Top</span>
+         <i data-lucide="arrow-up" class="h-3.5 w-3.5"></i>
+       </a>
+     </div>
+    </div>
+   </div>
+  </footer>
+
+  <!-- Modal and Filter Scripts -->
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      lucide.createIcons();
+    });
+
+    // Mobile Menu Toggle
+    const menuButton = document.getElementById("menu-button");
+    const mobileMenu = document.getElementById("mobile-menu");
+    if (menuButton && mobileMenu) {
+      menuButton.addEventListener("click", () => {
+        mobileMenu.classList.toggle("hidden");
+      });
+    }
+
+    // Comprehensive Article Content Database
+    const articles = [
+      {
+        title: "Digital Marketing for Small Businesses: A Practical Guide",
+        category: "Digital Marketing",
+        readTime: "5 min read",
+        content: `
+          <p class="font-semibold text-slate-900">For small businesses, every rupee spent on marketing must yield measurable returns. Here is a practical roadmap to establish a predictable customer acquisition system.</p>
+          <h3 class="text-lg font-bold text-slate-900 mt-4">1. Don't Try to Be Everywhere At Once</h3>
+          <p>The most common pitfall for local and emerging businesses is attempting to juggle five different platforms simultaneously. Instead, choose the 1 or 2 channels where your ideal customers actually spend their time. If you run a local retail, food, or lifestyle business in Madurai, Instagram and Google Maps are your bread and butter. If you offer B2B or specialized manufacturing, Google Search Ads and LinkedIn will deliver far higher quality leads.</p>
+          <h3 class="text-lg font-bold text-slate-900 mt-4">2. Build a Conversion-Ready Foundation</h3>
+          <p>Before putting money into paid campaigns, ensure you have a clean, mobile-responsive landing page with direct click-to-call and WhatsApp buttons. Driving paid traffic to an outdated website with slow loading times is like pouring water into a leaky bucket.</p>
+          <h3 class="text-lg font-bold text-slate-900 mt-4">3. Track Cost Per Inquiry, Not Vanity Likes</h3>
+          <p>Focus on concrete metrics: How many phone calls, form fills, or WhatsApp messages did your campaign generate? Calculate your Cost Per Inquiry (CPI) and Customer Lifetime Value (LTV) to ensure your marketing compounds month after month.</p>
+        `
+      },
+      {
+        title: "How Social Media Marketing Can Help Local Businesses",
+        category: "Social Media",
+        readTime: "4 min read",
+        content: `
+          <p class="font-semibold text-slate-900">Social media is no longer just for global influencers; it is one of the most cost-effective local discovery engines available today.</p>
+          <h3 class="text-lg font-bold text-slate-900 mt-4">1. The Power of Hyper-Local Geotagging</h3>
+          <p>When you tag your Instagram reels and posts with specific locations like 'Madurai', 'Anna Nagar, Madurai', or 'Goripalayam', Instagram's recommendation algorithm automatically serves your content to nearby users actively searching for local services and products.</p>
+          <h3 class="text-lg font-bold text-slate-900 mt-4">2. Show the Faces Behind the Brand</h3>
+          <p>Local customers connect with people, not faceless corporations. Sharing behind-the-scenes footage of your kitchen, workshop, patient care, or design process builds instant warmth and trust that big competitors cannot duplicate.</p>
+          <h3 class="text-lg font-bold text-slate-900 mt-4">3. Fast DM and Comment Responses</h3>
+          <p>Treat your social media direct messages as a live customer service counter. Responding to price inquiries and location questions within 15 minutes significantly increases conversion rates.</p>
+        `
+      },
+      {
+        title: "Google Ads vs Meta Ads: Which Is Right for Your Business?",
+        category: "Paid Advertising",
+        readTime: "6 min read",
+        content: `
+          <p class="font-semibold text-slate-900">Both Google Ads and Meta (Facebook & Instagram) Ads are formidable growth engines, but they solve fundamentally different customer acquisition challenges.</p>
+          <h3 class="text-lg font-bold text-slate-900 mt-4">When to Choose Google Search Ads:</h3>
+          <p>Google Ads captures <strong>existing high intent</strong>. When someone types 'AC repair in Madurai' or 'best pediatric hospital near me', they are in active need of an immediate solution. If your business solves an urgent, specific need, Google Ads is the fastest route to qualified phone calls.</p>
+          <h3 class="text-lg font-bold text-slate-900 mt-4">When to Choose Meta (Facebook & Instagram) Ads:</h3>
+          <p>Meta Ads excels at <strong>visual discovery and latent demand</strong>. Users scrolling Instagram aren't necessarily looking to hire someone right this second, but an attractive reel showcasing a luxury apartment, delicious food platter, or designer saree will spark desire and drive inquiries.</p>
+          <h3 class="text-lg font-bold text-slate-900 mt-4">The Hybrid Formula</h3>
+          <p>The highest performing businesses use Meta for brand discovery and retargeting, while keeping Google Search Ads active to scoop up ready-to-buy customers actively searching for their category.</p>
+        `
+      },
+      {
+        title: "What Is SEO and Why Does Your Business Need It?",
+        category: "SEO & Ranking",
+        readTime: "5 min read",
+        content: `
+          <p class="font-semibold text-slate-900">Search Engine Optimization (SEO) is the science and art of ranking your business at the very top of Google search results organically — without paying for each click.</p>
+          <h3 class="text-lg font-bold text-slate-900 mt-4">1. Compounding Free Traffic</h3>
+          <p>Unlike paid advertising which shuts off the moment your daily budget ends, SEO builds an enduring digital asset. An authoritative, well-ranked website continues to generate calls, leads, and customer inquiries month after month for free.</p>
+          <h3 class="text-lg font-bold text-slate-900 mt-4">2. The High Trust of Organic Results</h3>
+          <p>Over 70% of search engine users skip sponsored ads and click directly on organic results because they perceive them as more credible and trustworthy.</p>
+          <h3 class="text-lg font-bold text-slate-900 mt-4">3. Local Madurai Intent</h3>
+          <p>Customers rarely search for generic terms; they search with location qualifiers like 'in Madurai' or 'near me'. Optimizing your on-page copy, metadata, and local citations ensures your business captures this lucrative local footfall.</p>
+        `
+      },
+      {
+        title: "How to Optimize Your Google Business Profile",
+        category: "Google Maps SEO",
+        readTime: "4 min read",
+        content: `
+          <p class="font-semibold text-slate-900">Your Google Business Profile (formerly Google My Business) is the single most valuable free marketing asset for any local business in Madurai.</p>
+          <h3 class="text-lg font-bold text-slate-900 mt-4">1. Complete Every Field 100%</h3>
+          <p>Google rewards thorough profiles. Ensure your primary business category is precisely aligned with your main service. Fill in working hours, exact street address, local phone numbers, website link, and detailed service descriptions.</p>
+          <h3 class="text-lg font-bold text-slate-900 mt-4">2. Consistent Photo Uploads</h3>
+          <p>Businesses with 50+ real photos on their profile receive 42% more requests for directions on Google Maps. Upload pictures of your storefront, team, reception area, products, and successful project deliveries weekly.</p>
+          <h3 class="text-lg font-bold text-slate-900 mt-4">3. Review Velocity and Keyword Replies</h3>
+          <p>Encourage happy customers to leave reviews mentioning specific services (e.g., 'TEJX designed a fantastic website for my store in Madurai'). Respond to every review with gratitude and professional keywords.</p>
+        `
+      },
+      {
+        title: "Why Every Business Needs a Professional Website",
+        category: "Website Design",
+        readTime: "4 min read",
+        content: `
+          <p class="font-semibold text-slate-900">Relying solely on WhatsApp status or Instagram pages to run your business leaves you vulnerable to algorithm shifts and account suspensions.</p>
+          <h3 class="text-lg font-bold text-slate-900 mt-4">1. You Own Your Website</h3>
+          <p>Your website is digital real estate that you fully own and control. You dictate the user experience, brand messaging, and conversion flow without interference from social platform rules.</p>
+          <h3 class="text-lg font-bold text-slate-900 mt-4">2. The 24/7 Digital Salesperson</h3>
+          <p>While your physical office or store may close at 8 PM, your website works around the clock answering client questions, showcasing your portfolio, and capturing inquiry form submissions while you sleep.</p>
+          <h3 class="text-lg font-bold text-slate-900 mt-4">3. Full Conversion Tracking & Retargeting</h3>
+          <p>With a professional website, you can install the Meta Pixel and Google Tag Manager. This lets you build custom audiences and retarget people who visited your site with high-ROI reminders.</p>
+        `
+      },
+      {
+        title: "How Branding Helps Small Businesses Build Trust",
+        category: "Brand Strategy",
+        readTime: "5 min read",
+        content: `
+          <p class="font-semibold text-slate-900">Branding is not just a logo; it is the emotional reputation and gut feeling a customer experiences when they interact with your company.</p>
+          <h3 class="text-lg font-bold text-slate-900 mt-4">1. Breaking Free From Commodity Price Wars</h3>
+          <p>When you have no clear branding, customers evaluate you strictly on price. Consistent, premium branding conveys superior quality and reliability, allowing you to charge higher margins without losing deals.</p>
+          <h3 class="text-lg font-bold text-slate-900 mt-4">2. Visual Consistency Across Touchpoints</h3>
+          <p>From your visiting card, WhatsApp display picture, and Instagram posters to your quotation invoices and storefront board, consistent typography and colors build subconscious trust.</p>
+          <h3 class="text-lg font-bold text-slate-900 mt-4">3. First Impressions Form in 50 Milliseconds</h3>
+          <p>Prospective customers judge whether your company is legit within split seconds of landing on your page or seeing your flyer. Clean, modern design signals that you run an organized, dependable business.</p>
+        `
+      },
+      {
+        title: "Content Ideas for Local Businesses",
+        category: "Content Creation",
+        readTime: "4 min read",
+        content: `
+          <p class="font-semibold text-slate-900">If you find yourself wondering 'what should I post today?', here are ten high-converting content frameworks built specifically for local businesses:</p>
+          <ul class="list-disc pl-5 space-y-2 mt-3">
+            <li><strong>The FAQ Reel:</strong> Answer the single most common question clients ask when they call you.</li>
+            <li><strong>Transformation & Case Studies:</strong> Show the before-and-after results of your product, repair, or design service.</li>
+            <li><strong>Behind-the-Scenes:</strong> Show the care and craftsmanship that goes into preparing orders or managing projects.</li>
+            <li><strong>Customer Testimonial Video:</strong> Short 20-second clip of a satisfied customer sharing their experience.</li>
+            <li><strong>Myth vs Reality:</strong> Debunk common misconceptions in your industry.</li>
+            <li><strong>Local Madurai Tips:</strong> Highlight community events or tips relevant to your local neighborhood.</li>
+          </ul>
+        `
+      },
+      {
+        title: "How Business Videos Can Improve Online Presence",
+        category: "Video Marketing",
+        readTime: "5 min read",
+        content: `
+          <p class="font-semibold text-slate-900">Video content drives over 1,200% more social shares than static text and images combined. It is the single fastest medium to build rapport with potential buyers.</p>
+          <h3 class="text-lg font-bold text-slate-900 mt-4">1. The 3-Second Hook Rule</h3>
+          <p>Social algorithms reward watch time. Ensure the first 3 seconds of your video present a compelling visual or address a sharp customer pain point rather than slow company logo animations.</p>
+          <h3 class="text-lg font-bold text-slate-900 mt-4">2. High-Quality Lighting and Crisp Audio</h3>
+          <p>Viewers will tolerate average video resolution, but they will immediately swipe away from muffled, echoey audio. Using a simple lapel mic and natural light instantly elevates perceived professionalism.</p>
+          <h3 class="text-lg font-bold text-slate-900 mt-4">3. Clear Call to Action (CTA)</h3>
+          <p>Always conclude your video with a simple next step: 'Send us a WhatsApp message at 6374559080 to get your free consultation today.'</p>
+        `
+      },
+      {
+        title: "Lead Generation Strategies for Small Businesses",
+        category: "Lead Generation",
+        readTime: "6 min read",
+        content: `
+          <p class="font-semibold text-slate-900">Generating traffic is only half the battle; turning visitors into qualified, paying inquiries requires a deliberate lead capture mechanism.</p>
+          <h3 class="text-lg font-bold text-slate-900 mt-4">1. Reduce Friction With Direct WhatsApp Chat</h3>
+          <p>In South India, customers vastly prefer direct WhatsApp conversations over filling out long, intimidating 10-field contact forms. Integrating instant click-to-WhatsApp triggers can double your lead conversion rate.</p>
+          <h3 class="text-lg font-bold text-slate-900 mt-4">2. Offer an Irresistible Lead Magnet</h3>
+          <p>Give prospects a compelling reason to reach out: a free 30-minute consultation, a downloadable pricing checklist, or a complimentary digital presence audit.</p>
+          <h3 class="text-lg font-bold text-slate-900 mt-4">3. The 5-Minute Follow-Up Rule</h3>
+          <p>Studies consistently demonstrate that reaching out to an online inquiry within 5 minutes results in a 21x higher chance of qualifying the lead compared to waiting 30 minutes.</p>
+        `
+      },
+      {
+        title: "Local SEO Tips for Businesses in Madurai",
+        category: "Madurai Local SEO",
+        readTime: "5 min read",
+        content: `
+          <p class="font-semibold text-slate-900">Winning the local search game in Madurai requires tailoring your digital footprint to regional search behaviors and neighborhood geographic terms.</p>
+          <h3 class="text-lg font-bold text-slate-900 mt-4">1. Target Area-Specific Long-Tail Keywords</h3>
+          <p>Rather than only competing for broad terms, optimize for specific commercial hubs: 'Anna Nagar Madurai', 'KK Nagar', 'SS Colony', 'Mattuthavani', and 'Simmakkal'.</p>
+          <h3 class="text-lg font-bold text-slate-900 mt-4">2. Maintain 100% NAP Consistency</h3>
+          <p>Ensure your Name, Address, and Phone number (NAP) are character-for-character identical across your website, Google Business Profile, JustDial, Sulekha, and social media pages.</p>
+          <h3 class="text-lg font-bold text-slate-900 mt-4">3. Localized Testimonials and Landmark References</h3>
+          <p>Mention local landmarks and client locations naturally within your website case studies to strengthen geographic signals with search engines.</p>
+        `
+      },
+      {
+        title: "How to Use AI Tools for Business Content Creation",
+        category: "AI Solutions",
+        readTime: "5 min read",
+        content: `
+          <p class="font-semibold text-slate-900">Artificial Intelligence is a powerful creative multiplier that helps small teams produce high-quality marketing collateral in a fraction of the time.</p>
+          <h3 class="text-lg font-bold text-slate-900 mt-4">1. Use AI for Ideation and First Drafts</h3>
+          <p>Stuck on headline variations or ad copy angles? AI tools can generate 20 diverse concepts in seconds. Treat AI as a brainstorming assistant rather than an autopilot replacement.</p>
+          <h3 class="text-lg font-bold text-slate-900 mt-4">2. The Crucial Human Touch</h3>
+          <p>Raw AI output often sounds generic and robotic. Always review and refine the text to inject your real business stories, local Madurai nuances, and authentic brand voice.</p>
+          <h3 class="text-lg font-bold text-slate-900 mt-4">3. Automate Repetitive Workflows</h3>
+          <p>Use AI tools to transcribe client voice notes into structured meeting summaries, generate video subtitles automatically, and draft initial email responses to common customer inquiries.</p>
+        `
+      }
+    ];
+
+    // Modal elements
+    const modal = document.getElementById("article-modal");
+    const modalTitle = document.getElementById("modal-title");
+    const modalTag = document.getElementById("modal-tag");
+    const modalRead = document.getElementById("modal-read");
+    const modalContent = document.getElementById("modal-content");
+    const closeModalBtn = document.getElementById("close-modal-btn");
+    const modalCloseBottom = document.getElementById("modal-close-bottom");
+    const modalWaBtn = document.getElementById("modal-wa-btn");
+
+    function openArticle(idx) {
+      const art = articles[idx];
+      if (!art) return;
+
+      modalTag.textContent = art.category;
+      modalTitle.textContent = art.title;
+      modalRead.textContent = `${art.readTime} • Published by TEJX Digital Solutions`;
+      modalContent.innerHTML = art.content;
+
+      const encodedMsg = encodeURIComponent(`Hello TEJX, i'm intersted your service\n\nI just read your article: "${art.title}" and would like to discuss implementing this for my business.`);
+      modalWaBtn.href = `https://wa.me/916374559080?text=${encodedMsg}`;
+
+      modal.classList.remove("hidden");
+      document.body.style.overflow = "hidden";
+    }
+
+    function closeModal() {
+      modal.classList.add("hidden");
+      document.body.style.overflow = "auto";
+    }
+
+    document.querySelectorAll(".article-title, .read-btn").forEach(el => {
+      el.addEventListener("click", () => {
+        const idx = parseInt(el.getAttribute("data-article"));
+        openArticle(idx);
+      });
+    });
+
+    closeModalBtn.addEventListener("click", closeModal);
+    modalCloseBottom.addEventListener("click", closeModal);
+    modal.addEventListener("click", (e) => {
+      if (e.target === modal) closeModal();
+    });
+
+    // Category Filter Functionality
+    const filterButtons = document.querySelectorAll(".filter-btn");
+    const cards = document.querySelectorAll(".blog-card");
+
+    filterButtons.forEach(btn => {
+      btn.addEventListener("click", () => {
+        filterButtons.forEach(b => {
+          b.classList.remove("bg-[#08cbbd]", "text-slate-950", "active");
+          b.classList.add("bg-white/10", "text-white");
+        });
+        btn.classList.add("bg-[#08cbbd]", "text-slate-950", "active");
+        btn.classList.remove("bg-white/10", "text-white");
+
+        const filter = btn.getAttribute("data-filter");
+
+        cards.forEach(card => {
+          const cat = card.getAttribute("data-category");
+          if (filter === "all" || cat === filter) {
+            card.style.display = "flex";
+          } else {
+            card.style.display = "none";
+          }
+        });
+      });
+    });
+  </script>
+ </body>
+</html>
